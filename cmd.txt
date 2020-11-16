@@ -1,0 +1,10 @@
+git remote remove origin
+git remote add origin https://github.com/sriharshakarampudi/hashicat-gcp.git
+git pull
+git branch --set-upstream-to=origin/master master
+git config --global core.editor "vi"
+git config --global user.email "sriharsha@karampudi.me"
+git config --global user.name "Sriharsha Karampudi"
+git add .
+git commit -m "adding remote backend"
+git push origin master
